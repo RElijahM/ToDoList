@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.textBar {
+  display: block; /* Ensures it's treated as a block-level element */
+  margin: 0 auto; /* Centers the element horizontally */
+  width: 300px; /* Example width */
+  padding: 10px;
+}
+.textBar:focus{
+  outline: 2px solid rgba(171, 228, 223, 0.918);
+  
+}
+
+.addButton{
+background-color: aquamarine;
+color: wheat;
+display: inline-block;
+margin: 0 auto;
+width: 20vh;
+padding: 1%;
+font-weight: bold;
+cursor: pointer;
+
+}
+.addButton:hover{
+  background-color: rgb(0, 255, 98);
+  
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+
+}
+.list{
+  color: black;
+  display: block; /* Ensures it's treated as a block-level element */
+  margin: 0 auto; /* Centers the element horizontally */
+  width: 300px; /* Example width */
+  padding: 10px;
+  list-style-type: none;
+}
+
+.toDoWrapper{
+  background-color: bisque;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  height: 35vh;
+  padding: .1%;
+  max-height: 50vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px (27,27,27);
+  overflow-y: auto;
+ 
+
+}
+
+.titleWrapper{
+  
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 2%;
+  padding: .1%;
+  
+}
+
+
+
+.watchedButton{
+  padding: 10px 10px 10px 10px;
+ 
+  background-color: gray;
+  color: white;
+   
+}
+.watchedButton:hover{
+  padding: 10px 10px 10px 10px;
+ 
+  background-color: rgb(11, 238, 60);
+  color: rgb(22, 65, 206);
+   
+}
+.active{
+  background-color: green;
+  color: white;
+}
+.statusDiv{
+
+  background-color: bisque;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+
+  padding: .1%;
+ 
+
+
+}
